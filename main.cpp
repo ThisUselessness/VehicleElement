@@ -9,9 +9,9 @@ void CALLBACK od(std::string params) {
 	int count = std::stoi(params);
 	if (count < 6) {
 		PEDSELF->GetVehicle()->OpenDoor(count, 1.0f, false);
-		SF->getSAMP()->getChat()->AddChatMessage(-1, "{4A4A4A}[VehicleElement]:{727272} ÓÚÍ˚Î ˝ÎÂÏÂÌÚ - {ff0000}%d", count);
+		SF->getSAMP()->getChat()->AddChatMessage(-1, "{4A4A4A}[VehicleElement]:{727272} –æ—Ç–∫—Ä—ã–ª —ç–ª–µ–º–µ–Ω—Ç - {ff0000}%d", count);
 	}
-	else { SF->getSAMP()->getChat()->AddChatMessage(-1, "{4A4A4A}[VehicleElement]:{727272} ÌÂÎ¸Áˇ ‚‚Ó‰ËÚ¸ ÁÌ‡˜ÂÌËÂ ·ÓÎ¸¯Â 6-ÚË"); }
+	else { SF->getSAMP()->getChat()->AddChatMessage(-1, "{4A4A4A}[VehicleElement]:{727272} –Ω–µ–ª—å–∑—è –≤–≤–æ–¥–∏—Ç—å –∑–Ω–∞—á–µ–Ω–∏–µ –±–æ–ª—å—à–µ 6-—Ç–∏"); }
 }
 
 void __stdcall mainloop() {
