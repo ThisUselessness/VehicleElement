@@ -17,7 +17,7 @@ void CALLBACK od(std::string params) {
 void __stdcall mainloop() {
 	if (SF->getSAMP()->IsInitialized()) {
 		if (Initialized) {
-			SF->getSAMP()->getChat()->AddChatMessage(-1, "{4A4A4A}VehicleElement]:{727272} is initialized");
+			SF->getSAMP()->getChat()->AddChatMessage(-1, "{4A4A4A}[VehicleElement]:{727272} is initialized");
 			SF->getSAMP()->registerChatCommand("od", od);
 			Initialized = false;
 		}
